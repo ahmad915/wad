@@ -1,0 +1,33 @@
+div{
+    display:inline-block;
+}
+@media only screen and (max-width: 400px)
+{
+    .mobile{
+        width:8.33%;
+    }
+}
+@media only screen and (min-width: 400px)
+{
+    .mobile{
+        width:16.66%;
+    }
+}
+@media only screen and (min-width: 600px)
+{
+    .mobile{
+        width:25%;
+    }
+}
+@media only screen and (max-width: 800px)
+{
+    .mobile{
+        width:33.33%;
+    }
+}
+@media only screen and (max-width: 1000px)
+{
+    .mobile{
+        width:41.66%;
+    }
+}
